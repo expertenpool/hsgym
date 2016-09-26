@@ -1,0 +1,171 @@
+
+* {
+margin: 0px;
+padding: 0px;
+}
+
+p {
+	padding-top: 10px;
+}
+/*
+body {
+font: 100% Arial, Helvetica, sans-serif;
+color: #000;
+background: #fff;
+text-align: center;
+}
+
+a {
+text-decoration: none;
+}
+
+a img {
+border: 0 none;
+}
+
+#container {
+text-align:left;
+position: relative;
+width: 900px;
+color: #000;
+background: #DDD;
+height: 50px;
+margin: 0 auto;
+border-left: 1px solid;
+border-right: 1px solid;
+}
+
+.fixedfont { 
+ font-size : 14px 
+}
+*/
+html {height: 100.3%; margin-bottom: 1px;}
+
+body {
+	background: #FFFFFF;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	/*overflow-y: scroll;*/
+}
+
+#header_bg {
+	background: #5681b5;
+	border-bottom: 1px solid #000000;
+	padding: 0;
+	height: 60px;
+}
+#header_content {
+	width: 900px;
+	font-size: 24px;
+}
+
+
+#nav-menu
+{
+	background: #AAAAAA;
+	background-repeat:repeat-x;
+	border-bottom: 1px solid #000000;
+	margin: 0;
+	padding: 0;
+	height: 2.15em;
+}
+
+#nav-menu ul
+{
+	list-style: none;
+	padding: 0;
+	margin: 0px 0px 0px 0px;
+} 
+
+#nav-menu li
+{
+float: left;
+margin: 0 0;
+} 
+
+#nav-menu li a
+{
+background: #AAA bottom left repeat-x;
+height: 2em;
+line-height: 2em;
+float: left;
+width: 10em;
+display: block;
+border: 1px solid #7F7F7F;
+color: #000000;
+text-decoration: none;
+text-align: center;
+} 
+
+#nav-menu li a:hover
+{
+background: #DDD bottom left repeat-x;
+height: 2em;
+line-height: 2em;
+float: left;
+width: 10em;
+display: block;
+border: 1px solid #7F7F7F;
+color: #000000;
+text-decoration: none;
+text-align: center;
+} 
+#nav-menu li.active a
+{
+background: #DDD bottom left repeat-x;
+height: 2em;
+line-height: 2em;
+float: left;
+width: 10em;
+display: block;
+border: 1px solid #7F7F7F;
+color: #000000;
+text-decoration: none;
+text-align: center;
+} 
+
+
+#schatten {
+	background: url(../assets/schatten_oben.png) repeat-x;
+}
+#schatten2 {
+	background: url(../assets/schatten_unten.png) repeat-x;
+}
+#content {
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 60px;
+	/*border-right: 1px solid #000000;*/
+}
+#content_left {
+	/*background: #FEE;*/
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 60px;
+}
+#content_right {
+	/*background: #FEE;*/
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 60px;
+}
+
+#content_carrier {
+	width: 900px;
+}
+#content_carrier table {
+	font-size: 0.8em;
+	line-height: 160%;
+	text-align: left;
+}
+
+#info_zeile {
+	width: 900px;
+	font-size: 0.8em;
+	line-height: 150%;
+	text-align: left;
+	color: #00F;
+}
+
+.cursor {  cursor: hand}
+
